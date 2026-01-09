@@ -1,0 +1,69 @@
+/* .title{
+            width: 300px;
+            height: 300px;
+            display: grid;
+            place-content: center;
+
+            /* Add a transparency to the background
+               using rgba value 
+            background: rgba(255, 255, 255, 0.1);
+
+            /* Add a transparency to shadow 
+            box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+} */
+
+.backg {
+    background: linear-gradient(to right, #e8ffff, #e0aaff);
+}
+.img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    color:darkcyan;
+    text-shadow: 0px 5px 7px cadetblue;
+}
+
+.text {
+    color: darkcyan;
+    text-align: center;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    display: grid;
+    place-content: center; 
+    text-align: center;
+    position: relative;
+    margin-left: 750px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+    /* width: 30%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1); */
+
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 30px;
+    color:  darkcyan;
+    border-color: darkseagreen;
+    width: 150px;
+    height: 50px;
+    align-self: center;
+}
